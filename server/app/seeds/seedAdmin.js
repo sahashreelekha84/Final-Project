@@ -20,7 +20,7 @@ const seedAdmin = async () => {
 
     const exists = await Admin.findOne({email});
     if (exists) {
-      console.log("Admin already exists");
+      console.log("Admin already exists",exists.password);
       return;
     }
   await Admin.create({
