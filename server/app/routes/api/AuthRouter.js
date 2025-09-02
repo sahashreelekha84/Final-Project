@@ -1,0 +1,16 @@
+const express=require('express')
+const AuthController = require('../../controller/api/AuthController')
+const { Authcheck } = require('../../middleware/AuthCheck')
+const Admin_Auth_Controller = require('../../controller/api/Admin_Auth_Controller')
+const router=express.Router()
+router.post('/admin/login',Admin_Auth_Controller.adminLogin)
+router.post("/set-password",Authcheck, Admin_Auth_Controller.setPassword);
+router.post('/register',AuthController.register)
+router.post('/verifyemail',AuthController.verifyotp)
+router.post('/login',AuthController.login)
+router.post('/resendotp',AuthController.resendotp)
+router.post('/forgotpassword',AuthController.forgotpassword)
+router.post('/resendpassword/:token',AuthController.resendpassword)
+router.get('/dashboard',Authcheck,AuthController.dashboard)
+router.get('/profile',Authcheck,AuthController.profile)
+module.exports=router
