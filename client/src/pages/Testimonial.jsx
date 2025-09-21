@@ -7,7 +7,7 @@ const testimonialData = [
     name: "Diane Smith",
     title: "Client",
     image: "images/test_1.jpg",
-    text: "Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic iturut magna.",
+    text: "Even comfort should be balanced with purposeful effort. Move forward with confidence, carrying determination and focus.",
     rating: 4
   },
   {
@@ -15,7 +15,7 @@ const testimonialData = [
     name: "John Doe",
     title: "Client",
     image: "images/test_2.jpg",
-    text: "Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit.",
+    text: "Do not remain stuck in negativity; stay steady and composed. Focus on what is meaningful and keep yourself balanced.",
     rating: 5
   },
   {
@@ -23,7 +23,7 @@ const testimonialData = [
     name: "Jane Lee",
     title: "Client",
     image: "images/test_3.jpg",
-    text: "Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit.",
+    text: "Even without hostility, the setting remains firm with great strength. One should live with gentle balance.",
     rating: 4
   }
 ];

@@ -6,8 +6,8 @@ const About = () => {
     subtitle: "welcome to sportfit",
     title: "About Sportfit",
     highlight:
-      "Etiam commodo justo nec aliquam feugiat. Donec a leo eget eget augue porttitor sollicitudin augue porttitor sollicitudin.",
-    text: "Morbi sed varius risus, vitae molestie lectus. Donec id hendrerit velit, eu fringilla neque. Etiam id finibus sapien. Donec sollicitudin luctus ex non pharetra. Aenean lobortis ut leo vel porta. Maecenas ac vestibulum lectus. Cras nulla urna, lacinia ut tempor facilisis, congue dignissim tellus. Maecenas ac vestibulum lectus. Cras nulla urna, lacinia ut tempor facilisis, congue dignissim tellus. Phasellus sit amet justo ullamcorper, elementum ipsum nec.",
+      "	Even though it is convenient and just, it is not a little feugiat. Until a lion wants to want to be a good porttitor, a good porttitor, sollicitudin.",
+    text: "Live with variety, not monotony, facing challenges with confidence. Move forward with balance and harmony. Focus on meaningful goals. Success does not come from chance, but from preparation and effort. Strength comes from discipline and resilience. Stay grounded and steady. Opportunities open when you are consistent and purposeful. Stay true to your path, remain calm under pressure, and carry yourself with dignity. Keep moving forward with confidence, even through challenges.",
     button: {
       text: "Join Now",
       link: "/signup",

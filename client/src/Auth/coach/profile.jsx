@@ -60,6 +60,14 @@ const CoachProfile = () => {
             >
               Profile
             </ListGroup.Item>
+             <ListGroup.Item
+              action
+              active={activeTab === "ChangePassword"}
+              onClick={() => setActiveTab("profile")}
+              className="bg-dark text-white border-0"
+            >
+              <Link to="/coach/changepassword" className="text-white text-decoration-none">ChangePassword</Link>
+            </ListGroup.Item>
           </ListGroup>
         </Col>
 

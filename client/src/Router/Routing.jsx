@@ -25,6 +25,7 @@ import ClientForgetPassword from '../Auth/client/client_forgotpassword'
 import Client_ResetPassword from '../Auth/client/Client_resetpassword'
 import CoachForgetPassword from '../Auth/coach/coach_forgotpassword'
 import Coach_ResetPassword from '../Auth/coach/Coach_resetpassword'
+import CoachSetPassword from '../Auth/coach/changepassword'
 const Routing = () => {
   return (
     <Router>
@@ -54,6 +55,7 @@ const Routing = () => {
         <Route path='/coach/clients' element={<ClientDetails />} />
         <Route path='/coach/forgetpassword' element={<CoachForgetPassword/>} />
         <Route path="/resetpassword/:token" element={<Coach_ResetPassword/>}/>
+        <Route path="/coach/changepassword"element={<CoachSetPassword/>}/>
 
       </Routes>
       <Footer />

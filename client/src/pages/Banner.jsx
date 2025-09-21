@@ -29,19 +29,19 @@ const Banner = () => {
     {
       icon: "images/icon_1.png",
       title: "Pilates with trainer",
-      text: "Etiam commodo justo nec aliquam feugiat. Donec a leo eget augue porttitor sollicitudin.",
+      text: "Even comfort should be balanced with purposeful effort. Move forward with confidence, carrying determination and focus.",
       link: "#",
     },
     {
       icon: "images/icon_2.png",
       title: "Swimming Pool",
-      text: "Donec a leo eget augue porttitor sollicitudin. Morbi sed varius risus, vitae molestie lectus. Donec id hendrerit.",
+      text: "“Move forward with strength and determination, carrying responsibility with confidence. Live with balance and variety, not weighed down by difficulties. Stay focused and steady in your efforts.”",
       link: "#",
     },
     {
       icon: "images/icon_3.png",
       title: "Healthy diet plan",
-      text: "Morbi sed varius risus, vitae molestie lectus. Donec id hendrerit velit, eu fringilla neque.",
+      text: "Live with variety and balance, without being burdened by troubles. Stay strong with confidence, moving forward with focus and harmony.",
       link: "#",
     },
   ];
